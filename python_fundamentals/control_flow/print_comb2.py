@@ -2,4 +2,4 @@
 for x in range(00, 99):
     print("{:02d}".format(x), end=", ")
 else:
-    print("\n")
+    print("99 \n")
