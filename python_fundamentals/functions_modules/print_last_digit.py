@@ -7,4 +7,4 @@ def print_last_digit(number):
     if number == 0:
         digit = 0
     print("{}".format(digit), end="")
-    return(digit)
+    return (digit)
