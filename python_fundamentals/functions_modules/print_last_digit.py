@@ -5,4 +5,4 @@ def print_last_digit(number):
     else:
         number < 0
         digit = -(abs(number) % 10)
-    print("{}".format(digit))
+    print("{}".format(digit), end="")
