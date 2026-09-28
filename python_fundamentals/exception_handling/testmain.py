@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-safe_print_list = __import__('safe_print_list').safe_print_list
+from safe_print_integer import safe_print_integer
 
-my_list = [1, 2, 3, 4, 5]
-
-nb_print = safe_print_list(my_list, 2)
-print(f"elements: {nb_print}")
+for value in (42, -7, 0, "42", 3.5, [42]):
+    print("Testing {!r}:".format(value))
+    print("Returned: {}".format(safe_print_integer(value)))
