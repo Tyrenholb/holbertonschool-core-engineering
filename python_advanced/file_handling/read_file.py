@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-def read_file(filename=""):
+"""Functions for reading text files."""
 
-    with open("my_file_0.txt", encoding="utf-8") as myFile:
-        print(myFile.read())
+
+def read_file(filename=""):
+    """Read a UTF-8 text file and print its contents."""
+    with open(filename, encoding="utf-8") as my_file:
+        print(my_file.read(), end="")
