@@ -22,7 +22,7 @@ These exercises use no external runtime libraries.
 | [`read_file.py`](read_file.py) | `read_file(filename="")` prints the entire file without adding an extra newline; returns `None` |
 | [`write_file.py`](write_file.py) | `write_file(filename="", text="")` creates or overwrites a file and returns the number of characters written |
 | [`append_write.py`](append_write.py) | `append_write(filename="", text="")` creates or appends to a file and returns the number of characters added |
-| [`main.py`](main.py) | Appends `This School is so cool!` plus a newline to `file_append.txt`, then prints the count `23` |
+| [`main.py`](main.py) | Appends `This School is so cool!` plus a newline to `file_append.txt`, then prints the count `24` |
 
 ## Usage
 
@@ -56,7 +56,7 @@ Run the included append demonstration separately:
 python3 -B main.py
 ```
 
-It prints `23` on each successful run. Each run appends another line rather
+It prints `24` on each successful run. Each run appends another line rather
 than replacing the previous content.
 
 ## Behavior and limits
